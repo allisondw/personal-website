@@ -1,0 +1,110 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: #2a2929;
+}
+
+
+p {
+    font-size: 1rem;
+    color: #2a2929;
+}
+
+.lowlight {
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Unbounded', sans-serif;
+    color: #2a2929;
+}
+
+.tables {
+    background-color: #E4F1FF;
+}
+
+.title-span {
+    color: #8AC0FF;
+}
+
+.container#custom-cards {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.mt-15 {
+    margin-bottom: 20rem;
+}
+
+.custom-card-background-pace {
+    background-image: url('./assets/solution_sketch_car\ .jpg'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover;
+    
+  }
+
+.custom-card-background-graphics {
+    background-image: url('./assets/circusliquoryoudbehome\ 1.jpg'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover;
+}
+.custom-card-background-invites {
+    background-image: url('./assets/burst.svg'); /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover;
+}
+
+.btn-contact {
+    background-color: #E4F1FF; /* Fill color */
+    color: #2a2929; /* Font color */
+    font-family: 'Unbounded', sans-serif; /* Font */
+    font-size: 14px; /* Font size */
+    border: 2px solid #2a2929; /* Border type */
+    padding: 5px 20px; /* Padding */
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.social-link {
+    color: #333; /* Use a darker color value here, e.g., #333 for dark gray */
+    text-decoration: none; /* Remove underlines from the links */
+  }
+
+
+@media (max-width: 992px) {
+    .custom-img-size {
+      width: 200px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .who {
+        font-weight: 600;
+    }
+}  
+
+.when {
+        font-family: 'Unbounded', sans-serif;
+        font-size: 0.75rem;
+}
+
+
+.work-history {
+    padding-top: 20PX
+}
+
+.cv-category-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    border: 2px solid #2a2929;
+    border-bottom: 0px;
+}
+
+.last-resume-item {
+    border-bottom: 2px solid #2a2929;
+    margin-bottom: 10px;
+}
+
+.cv-category-header {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
